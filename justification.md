@@ -7,22 +7,22 @@
 **Proposed end date:** 31 June 2025 (**extension of 6 months**)
 
 **Reason for request:**
-We experienced ad one-year recruitment delay because finding good software engineers with expertise in Bonsai programming, neuroscience and machine learning is difficult and time consuming.
+Experienced a one-year recruitment delay, because finding good software engineers with expertise in Bonsai programming, neuroscience and machine learning is difficult and time consuming.
 
 **Progress to date:**
 
 *Interoperability*
-- developed the [Python scripting package](https://bonsai-rx.org/python-scripting/), for interfacing Bonsai with Python applications.
+- developed the [Python scripting package](https://bonsai-rx.org/python-scripting/), for interfacing Bonsai (C#) with Python.
 - developed the [Bonsa.ML.Torch package](https://bonsai-rx.org/machinelearning/articles/Torch/torch-overview.html), brining Torch functionality to the Bonsai ecosystem.
 - added [support for Linux to Bonsai](https://github.com/bonsai-rx/bonsai/releases/tag/2.8.20).
 
 *Functionality integration*
-- created the [Bonsai.ML.LinearDynamicalSystems package](https://bonsai-rx.org/machinelearning/articles/LinearDynamicalSystems/lds-overview.html), integrating linear dynamical systems into Bonsai for, for example, [real-time estimation of mice kinematics](https://bonsai-rx.org/machinelearning/examples/examples/LinearDynamicalSystems/Kinematics/ModelOptimizationForagingMouse/README.html) and [visual receptive fields](https://bonsai-rx.org/machinelearning/examples/examples/LinearDynamicalSystems/LinearRegression/ReceptiveFieldSimpleCell/README.html).
+- created the [Bonsai.ML.LinearDynamicalSystems package](https://bonsai-rx.org/machinelearning/articles/LinearDynamicalSystems/lds-overview.html), integrating linear dynamical systems into Bonsai for, for example, [real-time inference of mice kinematics](https://bonsai-rx.org/machinelearning/examples/examples/LinearDynamicalSystems/Kinematics/ModelOptimizationForagingMouse/README.html) and [visual receptive field estimation](https://bonsai-rx.org/machinelearning/examples/examples/LinearDynamicalSystems/LinearRegression/ReceptiveFieldSimpleCell/README.html).
 - created the [Bonsai.ML.HiddenMarkovModels package](https://bonsai-rx.org/machinelearning/articles/HiddenMarkovModels/hmm-overview.html), integrating hidden Markov models into Bonsai for, for example, [inferring mice behavioral states](https://bonsai-rx.org/machinelearning/examples/examples/HiddenMarkovModels/InferringBehavioralStateFromKinematics/README.html).
 - created the [Bonsai.ML.PointProcessDecoder package](https://bonsai-rx.org/machinelearning/articles/PointProcessDecoder/ppd-overview.html), integrating a point-process decoder into Bonsai for, for example, [decoding animal position from hippocampal](https://bonsai-rx.org/machinelearning/examples/examples/PointProcessDecoder/DecodePositionFromHippocampusClusterless/README.html) or [strialal](https://bonsai-rx.org/machinelearning/examples/examples/PointProcessDecoder/DecodePositionFromStriatumSortedUnits/README.html) spikes.
 - creating the [Bonsai.ML.Lds.Torch package](https://github.com/bonsai-rx/machinelearning/pull/70), a TorchSharp implementation of the Bonsai.ML.LinearDynamicalSystems package.
 - creating an application of the [Bonsai.ML.Lds.Torch package](https://github.com/bonsai-rx/machinelearning/pull/70) for real-time estimation, visualisation and forecasting of neural latent variables.
-- creating the Bonsai.ML.OnlineBayesianLinearRegression package to perform online Bayesian linear regression in Bonsai, with applications for the [estimation of visual receptive fields of cortical visual cells](https://github.com/joacorapela/bonsai-oblr-corticalSimpleCellEx).
+- creating the Bonsai.ML.OnlineBayesianLinearRegression package to perform online Bayesian linear regression in Bonsai, with applications for the [estimation of receptive fields of cortical visual cells](https://github.com/joacorapela/bonsai-oblr-corticalSimpleCellEx).
 - creating the [Bonsai.ML.RecursiveLeastSquares package](https://github.com/joacorapela/bonsai-rlsSimpleLinearRegression) to perform online recursive least squares regression in Bonsai.
 
 *Dissemination*
@@ -36,12 +36,12 @@ We experienced ad one-year recruitment delay because finding good software engin
 **Work remaining and plan:**
 - improve Bonsai.ML's documentation:
     - use the [style of scikit-learn's documentation](https://scikit-learn.org/).
-    - create documentation for methods developers, as Bonsai.ML currently only has documentation for methods users.
-- enhance the [Bonsai.ML.PointProcessDecoder package](https://bonsai-rx.org/machinelearning/articles/PointProcessDecoder/ppd-overview.html) package to integrate clusterless decoding functionality for data acquired from Neuropixels probes, as the current clusterless decoder only works with tetrodes.
+    - create documentation for methods developers, as currently Bonsai.ML only has documentation for methods users.
+- enhance [Bonsai.ML.PointProcessDecoder package](https://bonsai-rx.org/machinelearning/articles/PointProcessDecoder/ppd-overview.html) to add clusterless decoding support for Neuropixels recordings; the current implementation only supports tetrodes data.
 - collaborate with experimental neuroscientists in the applications of Bonsai.ML tools to address state-of-the-art real-time experimental control problems and create Bonsai.ML use cases:
-    - [Prof. Aman Saleem](https://www.saleemlab.com/) , Institute of Behavioral Neuroscience, University College London: *Real-time forecasting of mice position and head orientation for zero-lag stimuli display* (forecasting with linear dynamical systems).
+    - [Prof. Aman Saleem](https://www.saleemlab.com/) , Institute of Behavioral Neuroscience, University College London: *Real-time forecasting of mice position and head orientation for zero-lag stimuli display* (forecasting behavior with linear dynamical systems and deep neural networks).
     - [Prof. John O'Keefe](https://www.sainsburywellcome.org/web/groups/okeefe-lab), Sainsbury Wellcome Center, University College London: *Real-time detection of theta-sweeps in goal-driven navigation in the honeycomb maze* (point-process decoding with Neuropixels probes).
-    - [Dr. Josh Siegle](https://alleninstitute.org/person/josh-siegle/), Allen Institute for Neural Dynamics, Seattle, US: *Real-time visualisation and forecasting of neural latent variables* (inference and forecasting with linear dynamical systems).
+    - [Dr. Josh Siegle](https://alleninstitute.org/person/josh-siegle/), Allen Institute for Neural Dynamics, Seattle, US: *Real-time visualisation and forecasting of neural latent variables* (inference and forecasting with Gaussian and Poisson linear dynamical systems).
 
 **Budget / resources:**
 This is a **no-cost** request. The remaining work will be delivered within the existing award budget.
