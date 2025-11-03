@@ -32,7 +32,7 @@ We experienced a one-year recruitment delay because finding good software engine
 
 * [PointProcessDecoder](https://github.com/ncguilbeault/PointProcessDecoder): C# implementation of the Python point-process decoder [replay_trajectory_classification](https://github.com/Eden-Kramer-Lab/replay_trajectory_classification).
 
-* [Bonsai.ML.PointProcessDecoder](https://bonsai-rx.org/machinelearning/articles/PointProcessDecoder/ppd-overview.html) — integrated [PointProcessDecoder](https://github.com/ncguilbeault/PointProcessDecoder) into Bonsai for:
+* [Bonsai.ML.PointProcessDecoder](https://bonsai-rx.org/machinelearning/articles/PointProcessDecoder/ppd-overview.html) — integrated [PointProcessDecoder](https://github.com/ncguilbeault/PointProcessDecoder) into Bonsai for neural decoding, including:
 
   * [Decoding position from hippocampal spikes](https://bonsai-rx.org/machinelearning/examples/examples/PointProcessDecoder/DecodePositionFromHippocampusClusterless/README.html)
   * [Decoding position from striatal spikes](https://bonsai-rx.org/machinelearning/examples/examples/PointProcessDecoder/DecodePositionFromStriatumSortedUnits/README.html)
@@ -42,8 +42,8 @@ We experienced a one-year recruitment delay because finding good software engine
 * Organized the [Bonsai Developers Conference 2024](https://conference.bonsai-rx.org/2024/), which included a [Bonsai.ML session](https://conference.bonsai-rx.org/2024/program/#machine-learning).
 * Hosted a Bonsai booth at the [Society for Neuroscience 2024](https://www.sfn.org/meetings/neuroscience-2024), with Bonsai.ML presentations.
 * Visited Janelia Research Campus in 2024 and delivered talks on Bonsai and Bonsai.ML.
-* Delivered Bonsai and Bonsai.ML lectures at the 2024 edition of the [Neuroinformatics course](https://neurogears.org/neuroinformatics-2024/), at the [Sainsbury Wellcome Centre](https://www.sainsburywellcome.org/web/).
-* Delivered Bonsai and Bonsai.ML lectures at the 2025 edition of the [Statistical Neuroscience course](https://neurogears.org/neuroinformatics-2025/), at the [Sainsbury Wellcome Centre](https://www.sainsburywellcome.org/web/).
+* Delivered Bonsai and Bonsai.ML lectures at the 2024 edition of the [Neuroinformatics course](https://neurogears.org/neuroinformatics-2024/), at University College London.
+* Delivered Bonsai and Bonsai.ML lectures at the 2025 edition of the [Statistical Neuroscience course](https://neurogears.org/neuroinformatics-2025/), at University College London.
 * Will host a Bonsai booth at the [Society for Neuroscience 2025](https://www.sfn.org/meetings/neuroscience-2025), with Bonsai.ML presentations.
 
 ---
