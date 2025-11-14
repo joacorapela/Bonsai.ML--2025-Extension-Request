@@ -11,6 +11,69 @@ We experienced a one-year recruitment delay because finding good software engine
 
 ---
 
+**Unused funds:**
+
+*Staff*
+
+Requested:
+
+Role Name /Post Identifier Total cost on grant (£)
+Researcher Co-Investigator Dr Joaquin Rapela 196864
+Researcher Research Software Engineer 2 196864
+Total £ 393728
+
+Unused: £ 33,229
+
+Justification:
+
+One year delay in hiring Researcher Research Software Engineer 2
+
+*Travel and Subsistence*
+
+Requested:
+
+Destination and purpose Total £
+Outside UK RSE Conference travel and accommodation x 2 14400
+Outside UK Travel and accommodation for invited speakers 13200.00
+Total £ 27,600.00
+
+Unused: £21,826
+
+Justification:
+
+- We did not attend the RSE conference.
+
+- The invited speakers to our 2024 Bonsai Developers Conference paid their own tickets.
+
+
+*Other Directly Incurred Costs*
+
+Requested:
+
+Description Total £
+Bonsai workshop x2 2400
+Conference fees x 2 2640
+Engagement event 2400
+Laptop x 2 6000
+Training courses 2400
+Total £ 15,840
+
+Unused: £10,744
+
+Justification:
+
+- We hosted two Bonsai workshops at the SWC, with no cost.
+
+- We attended the 2024 and 2025 SfN conference. The registration fees were paid by NeuroGEARS.
+
+- The engagement events were hosted at the SWC, with no cost.
+
+- We bought only one laptop, since the other laptop was donated by NeuroGEARS.
+
+- The training courses were hosted at the SWC, with no cost.
+
+---
+
 **Progress to date:**
 
 *Interoperability*
