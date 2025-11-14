@@ -21,8 +21,7 @@ Requested:
 | ---- | --------------------- | ----------------------- |
 | Researcher Co-Investigator | Dr Joaquin Rapela | 196864 |
 | Researcher | Research Software Engineer 2 | 196864 |
-
-Total £ 393728
+|            |                              | 393728 |
 
 Unused: £ 33,229
 
@@ -34,10 +33,11 @@ One year delay in hiring Researcher Research Software Engineer 2
 
 Requested:
 
-Destination and purpose Total £
-Outside UK RSE Conference travel and accommodation x 2 14400
-Outside UK Travel and accommodation for invited speakers 13200.00
-Total £ 27,600.00
+| Destination and purpose | Total £ |
+| ----------------------- | ------- |
+| Outside UK RSE Conference travel and accommodation x 2 | 14400 |
+| Outside UK Travel and accommodation for invited speakers | 13200.00 |
+| | 27,600.00 |
 
 Unused: £21,826
 
@@ -52,13 +52,14 @@ Justification:
 
 Requested:
 
-Description Total £
-Bonsai workshop x2 2400
-Conference fees x 2 2640
-Engagement event 2400
-Laptop x 2 6000
-Training courses 2400
-Total £ 15,840
+| Description | Total £ |
+| ----------- | ------- |
+| Bonsai workshop x2 | 2400 |
+| Conference fees x 2 | 2640 |
+| Engagement event | 2400 |
+| Laptop x 2 | 6000 |
+| Training courses | 2400 |
+| | 15,840 |
 
 Unused: £10,744
 
