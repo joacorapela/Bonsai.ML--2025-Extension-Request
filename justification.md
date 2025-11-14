@@ -17,9 +17,11 @@ We experienced a one-year recruitment delay because finding good software engine
 
 Requested:
 
-Role Name /Post Identifier Total cost on grant (£)
-Researcher Co-Investigator Dr Joaquin Rapela 196864
-Researcher Research Software Engineer 2 196864
+| Role | Name /Post Identifier | Total cost on grant (£) |
+| ---- | --------------------- | ----------------------- |
+| Researcher Co-Investigator | Dr Joaquin Rapela | 196864 |
+| Researcher | Research Software Engineer 2 | 196864 |
+
 Total £ 393728
 
 Unused: £ 33,229
